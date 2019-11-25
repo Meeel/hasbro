@@ -14,6 +14,7 @@ TABLE OF CONTENTS
 08 MODALS
 09 BUTTONS
 10 HEADER
+11 FOOTER
 -----------------------------------------------------------------------------
 /* ==========================================================================
 01 CLEARFIX
@@ -107,13 +108,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 03 COLORS
 ========================================================================== */
 /* ==========================================================================
-SOCIAL - COLOR PALETTE
-========================================================================== */
-/* ==========================================================================
 CLIENT - COLOR PALETTE
 ========================================================================== */
 /* ==========================================================================
-MEDIOS - COLOR PALETTE
+END CLIENT - COLOR PALETTE
 ========================================================================== */
 /* ==========================================================================
 04 FONTS
@@ -121,162 +119,6 @@ MEDIOS - COLOR PALETTE
 /* ==========================================================================
    FONTS
    ========================================================================== */
-/*-----Lato-----*/
-@font-face {
-  font-family: "Lato";
-  src: url("../fonts/lato/Lato-Hairline.ttf") format("truetype");
-  font-weight: 100;
-  font-style: thin; }
-
-@font-face {
-  font-family: "Lato";
-  src: url("../fonts/lato/Lato-HairlineItalic.ttf") format("truetype");
-  font-weight: 100;
-  font-style: italic; }
-
-@font-face {
-  font-family: "Lato";
-  src: url("../fonts/lato/Lato-Light.ttf") format("truetype");
-  font-weight: 300;
-  font-style: light; }
-
-@font-face {
-  font-family: "Lato";
-  src: url("../fonts/lato/Lato-LightItalic.ttf") format("truetype");
-  font-weight: 300;
-  font-style: italic; }
-
-@font-face {
-  font-family: "Lato";
-  src: url("../fonts/lato/Lato-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal; }
-
-@font-face {
-  font-family: "Lato";
-  src: url("../fonts/lato/Lato-Italic.ttf.ttf") format("truetype");
-  font-weight: 400;
-  font-style: italic; }
-
-@font-face {
-  font-family: "Lato";
-  src: url("../fonts/lato/Lato-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: bold; }
-
-@font-face {
-  font-family: "Lato";
-  src: url("../fonts/lato/Lato-BoldItalic.ttf") format("truetype");
-  font-weight: 700;
-  font-style: italic; }
-
-@font-face {
-  font-family: "Lato";
-  src: url("../fonts/lato/Lato-Black.ttf") format("truetype");
-  font-weight: 800;
-  font-style: black; }
-
-/*-------Fin Lato-------*/
-/*-----Montserrat-----*/
-@font-face {
-  font-family: "Montserrat";
-  src: url("../fonts/Montserrat/Montserrat-Thin.ttf") format("truetype");
-  font-weight: 300;
-  font-style: light; }
-
-@font-face {
-  font-family: "Montserrat";
-  src: url("../fonts/Montserrat/Montserrat-ThinItalic.ttf") format("truetype");
-  font-weight: 300;
-  font-style: italic; }
-
-@font-face {
-  font-family: "Montserrat";
-  src: url("../fonts/Montserrat/Montserrat-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal; }
-
-@font-face {
-  font-family: "Montserrat";
-  src: url("../fonts/Montserrat/Montserrat-Italic.ttf") format("truetype");
-  font-weight: 400;
-  font-style: italic; }
-
-@font-face {
-  font-family: "Montserrat";
-  src: url("../fonts/Montserrat/Montserrat-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: bold; }
-
-@font-face {
-  font-family: "Montserrat";
-  src: url("../fonts/Montserrat/Montserrat-BlackItalic.ttf") format("truetype");
-  font-weight: 700;
-  font-style: italic; }
-
-/*-------Fin Lato-------*/
-/*-----Open Sans-----*/
-@font-face {
-  font-family: "Open Sans";
-  src: url("../fonts/open-sans/OpenSans-Light.ttf") format("truetype");
-  font-weight: 300;
-  font-style: lighter; }
-
-@font-face {
-  font-family: "Open Sans";
-  src: url("../fonts/open-sans/OpenSans-LightItalic.ttf") format("truetype");
-  font-weight: 300;
-  font-style: italic; }
-
-@font-face {
-  font-family: "Open Sans";
-  src: url("../fonts/open-sans/OpenSans-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal; }
-
-@font-face {
-  font-family: "Open Sans";
-  src: url("../fonts/open-sans/OpenSans-Italic.ttf.ttf") format("truetype");
-  font-weight: 400;
-  font-style: italic; }
-
-@font-face {
-  font-family: "Open Sans";
-  src: url("../fonts/open-sans/OpenSans-SemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: medium; }
-
-@font-face {
-  font-family: "Open Sans";
-  src: url("../fonts/open-sans/OpenSans-SemiBoldItalic.ttf") format("truetype");
-  font-weight: 600;
-  font-style: italic; }
-
-@font-face {
-  font-family: "Open Sans";
-  src: url("../fonts/open-sans/OpenSans-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: bold; }
-
-@font-face {
-  font-family: "Open Sans";
-  src: url("../fonts/open-sans/OpenSans-BoldItalic.ttf") format("truetype");
-  font-weight: 700;
-  font-style: italic; }
-
-@font-face {
-  font-family: "Open Sans";
-  src: url("../fonts/open-sans/OpenSans-ExtraBold.ttf") format("truetype");
-  font-weight: 800;
-  font-style: black; }
-
-@font-face {
-  font-family: "Open Sans";
-  src: url("../fonts/open-sans/OpenSans-ExtraBoldItalic.ttf") format("truetype");
-  font-weight: 800;
-  font-style: italic; }
-
-/*-------Fin Open Sans-------*/
 /*-------Roboto------*/
 @font-face {
   font-family: "Roboto";
@@ -353,148 +195,32 @@ MEDIOS - COLOR PALETTE
   font-style: bolder; }
 
 /* ------Fin Roboto condensed------*/
-/*------Noto Serif------*/
+/*--------Font Trade Marker--------*/
 @font-face {
-  font-family: "Noto Serif";
-  src: url("../fonts/noto-serif/NotoSerif-Regular.ttf") format("truetype");
-  font-weight: 400;
+  font-family: 'TradeMarker';
+  src: url("../fonts/trade-marker/TradeMarker-Light.woff2") format("woff2"), url("../fonts/trade-marker/TradeMarker-Light.woff") format("woff");
+  font-weight: 300;
   font-style: normal; }
 
 @font-face {
-  font-family: "Noto Serif";
-  src: url("../fonts/noto-serif/NotoSerif-Italic.ttf") format("truetype");
-  font-weight: 400;
+  font-family: 'TradeMarker';
+  src: url("../fonts/trade-marker/TradeMarker-LightItalicAlt.woff2") format("woff2"), url("../fonts/trade-marker/TradeMarker-LightItalicAlt.woff") format("woff");
+  font-weight: 300;
   font-style: italic; }
 
 @font-face {
-  font-family: "Noto Serif";
-  src: url("../fonts/noto-serif/NotoSerif-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: bold; }
-
-@font-face {
-  font-family: "Noto Serif";
-  src: url("../fonts/noto-serif/NotoSerif-BoldItalic.ttf") format("truetype");
-  font-weight: 700;
-  font-style: italic; }
-
-/*------Fin Noto Serif------*/
-/*------Brandon*------*/
-@font-face {
-  font-family: "Brandon";
-  src: url("../fonts/Brandon/BrandonText-Regular.otf");
-  font-weight: 400;
+  font-family: 'TradeMarker';
+  src: url("../fonts/trade-marker/TradeMarker-LightAlt.woff2") format("woff2"), url("../fonts/trade-marker/TradeMarker-LightAlt.woff") format("woff");
+  font-weight: 300;
   font-style: normal; }
 
 @font-face {
-  font-family: "Brandon";
-  src: url("../fonts/Brandon/BrandonText-RegularItalic.otf");
-  font-weight: 400;
-  font-style: italic; }
-
-@font-face {
-  font-family: "Brandon";
-  src: url("../fonts/Brandon/BrandonText-Bold.otf");
-  font-weight: 600;
-  font-style: bold; }
-
-@font-face {
-  font-family: "Brandon";
-  src: url("../fonts/Brandon/BrandonText-BoldItalic.otf");
-  font-weight: 600;
-  font-style: italic; }
-
-@font-face {
-  font-family: "Brandon";
-  src: url("../fonts/Brandon/BrandonText-Black.otf");
-  font-weight: 900;
-  font-style: black; }
-
-@font-face {
-  font-family: "Brandon";
-  src: url("../fonts/Brandon/BrandonText-BlackItalic.otf");
-  font-weight: 900;
-  font-style: italic; }
-
-/*-------Fin Brandon-------*/
-/*-------Rozha One-------*/
-@font-face {
-  font-family: "Rozha";
-  src: url("../fonts/rozha_one/RozhaOne-Regular.ttf");
-  font-weight: 400;
+  font-family: 'TradeMarker';
+  src: url("../fonts/trade-marker/TradeMarker-Fat.woff2") format("woff2"), url("../fonts/trade-marker/TradeMarker-Fat.woff") format("woff");
+  font-weight: normal;
   font-style: normal; }
 
-/*-------Fin Rozha One-------*/
-/*-------Rubik-------*/
-@font-face {
-  font-family: "Rubik";
-  src: url("../fonts/rubik/Rubik-Light.ttf") format("truetype");
-  font-weight: 200;
-  font-style: lighter; }
-
-@font-face {
-  font-family: "Rubik";
-  src: url("../fonts/rubik/Rubik-LightItalic.ttf") format("truetype");
-  font-weight: 200;
-  font-style: italic; }
-
-@font-face {
-  font-family: "Rubik";
-  src: url("../fonts/rubik/Rubik-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal; }
-
-@font-face {
-  font-family: "Rubik";
-  src: url("../fonts/rubik/Rubik-Italic.ttf") format("truetype");
-  font-weight: 400;
-  font-style: italic; }
-
-@font-face {
-  font-family: "Rubik";
-  src: url("../fonts/rubik/Rubik-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal; }
-
-@font-face {
-  font-family: "Rubik";
-  src: url("../fonts/rubik/Rubik-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: bold; }
-
-@font-face {
-  font-family: "Rubik";
-  src: url("../fonts/rubik/Rubik-Black.ttf") format("truetype");
-  font-weight: 900;
-  font-style: black; }
-
-/*-------Fin Rubik-------*/
-/*-------Playfair Display-------*/
-@font-face {
-  font-family: "Playfair";
-  src: url("../fonts/playfair-display/PlayfairDisplay-Regular.otf") format("opentypee");
-  font-weight: 400;
-  font-style: normal; }
-
-@font-face {
-  font-family: "Playfair";
-  src: url("../fonts/playfair-display/PlayfairDisplay-Italic.otf") format("opentype");
-  font-weight: 400;
-  font-style: italic; }
-
-@font-face {
-  font-family: "Playfair";
-  src: url("../fonts/playfair-display/PlayfairDisplay-Bold.otf") format("opentype");
-  font-weight: 600;
-  font-style: bold; }
-
-@font-face {
-  font-family: "Playfair";
-  src: url("../fonts/playfair-display/PlayfairDisplay-BoldItalic.otf") format("opentype");
-  font-weight: 600;
-  font-style: italic; }
-
-/*-------Fin Playfair Display-------*/
+/* ------Fin -Trade Marker-----*/
 /* ==========================================================================
    FIN FONTS
    ========================================================================== */
@@ -519,7 +245,7 @@ GRID
 }
 */
 body, html {
-  font-family: "Lato", Helvetica, Arial, "sans-serif";
+  font-family: "Roboto", Helvetica, Arial, "sans-serif";
   font-weight: 400;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
@@ -537,7 +263,7 @@ label {
   -moz-osx-font-smoothing: grayscale; }
 
 a, span, input, figcaption, p, label, h1, h2, h3, h4 {
-  font-family: "Lato", Helvetica, Arial, "sans-serif";
+  font-family: "Roboto", Helvetica, Arial, "sans-serif";
   font-weight: 400; }
 
 /* ==========================================================================
@@ -624,7 +350,7 @@ div#preloader {
   height: 100%;
   top: 0;
   z-index: 9999;
-  background: black;
+  background: #06409a;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
   /* enables momentum scrolling in iOS overflow elements */ }
@@ -738,12 +464,11 @@ div#preloader {
   text-align: left;
   font-size: 17px;
   font-weight: 600;
-  letter-spacing: 0.4px;
+  letter-spacing: 2px;
   border: 0;
   border-radius: inherit;
   outline: none;
-  font-family: "Lato", Helvetica, Arial, "sans-serif";
-  font-weight: 400; }
+  font-family: "TradeMarker", Helvetica, Arial, "sans-serif"; }
 
 .pushy-submenu > a,
 .pushy-submenu > button {
@@ -791,16 +516,16 @@ div#preloader {
   transform: translateY(-50%) rotate(90deg); }
 
 .blue-menu {
-  background: #000 !important;
+  background: #06409a !important;
   background-repeat-y: repeat;
   font-weight: bolder;
-  color: #ead010;
-  border-bottom: solid 1px #fdd700 !important; }
+  color: white;
+  border-bottom: solid 1px #a50700 !important; }
 
 .close-menu {
   height: 40px;
   width: 100%;
-  background: black;
+  background: #06409a;
   position: relative; }
 
 .close-menu img {
@@ -993,32 +718,52 @@ button.btn-down {
 /*--BTNES GENERAL---*/
 a.link {
   text-decoration: none;
-  color: #316d82;
+  color: #a50700;
   cursor: pointer;
   width: 100%;
-  max-width: 280px;
-  height: auto; }
+  max-width: 200px;
+  height: auto;
+  display: block;
+  margin: 0 auto; }
+  @media screen and (min-width: 48em) {
+    a.link {
+      max-width: 280px; } }
   a.link button.btn {
-    max-width: 280px;
+    max-width: 200px;
     width: 100%;
-    height: 60px;
-    border-radius: 60px;
+    height: 40px;
     border: none;
-    background-color: #316d82;
+    background-color: transparent;
+    background-size: cover;
     color: white;
     cursor: pointer;
-    -moz-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-    font-family: "Lato", Helvetica, Arial, "sans-serif";
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 16px;
-    color: white; }
+    background-repeat: no-repeat; }
+    @media screen and (min-width: 48em) {
+      a.link button.btn {
+        max-width: 280px;
+        width: 100%;
+        height: 60px; } }
+  a.link button.btn-participar {
+    position: relative;
+    z-index: 3;
+    background-image: url("../img/botones/btn_participar.png"); }
     @media screen and (min-width: 64em) {
-      a.link button.btn:hover {
-        background-color: #142c35; } }
+      a.link button.btn-participar:hover {
+        background-position-y: -60px; } }
+
+a.linkFooter {
+  font-family: "Roboto Condensed", Helvetica, Arial, "sans-serif";
+  font-size: 9px;
+  color: #06409a;
+  text-decoration: underline;
+  cursor: pointer;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s; }
+  @media screen and (min-width: 48em) {
+    a.linkFooter {
+      font-size: 12px; } }
 
 /* ==========================================================================
                         END-HR-BUTTONS
@@ -1027,13 +772,13 @@ a.link {
 10 HEADER
 ========================================================================== */
 /* ==========================================================================
-                         HR-MODALS
+                         HR-HEADER
 ========================================================================== */
 header {
   width: 100%;
-  height: 60px !important;
+  height: 8vh;
   display: block;
-  background-color: gray;
+  background-color: transparent;
   display: -webkit-box;
   /* OLD - iOS 6-, Safari 3.1-6 */
   display: -moz-box;
@@ -1045,7 +790,13 @@ header {
   display: flex;
   /* NEW, Spec - Opera 12.1, Firefox 20+ */
   align-items: center;
-  background-color: #3e3e3e; }
+  background-image: url("../img/general/header.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  @media screen and (min-width: 48em) {
+    header {
+      height: 15vh; } }
   header div#header {
     display: -webkit-box;
     /* OLD - iOS 6-, Safari 3.1-6 */
@@ -1066,25 +817,111 @@ header {
     header div#header img.menu-btn {
       width: 30px;
       height: auto;
-      display: block; }
+      display: block;
+      margin-top: 40px;
+      -moz-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      -webkit-transition: all 0.3s;
+      transition: all 0.3s; }
+      @media screen and (min-width: 30em) {
+        header div#header img.menu-btn {
+          width: 45px;
+          margin-top: 50px;
+          margin-left: 10px; } }
+      @media screen and (min-width: 48em) {
+        header div#header img.menu-btn {
+          width: 50px;
+          margin-top: 40px;
+          margin-left: 20px; } }
 
 /* ==========================================================================
-                        END-HR-MODALS
+                        END-HR-HEADER
 ========================================================================== */
 /* ==========================================================================
-11 MAIN
+11 FOOTER
+========================================================================== */
+/* ==========================================================================
+                         HR-HEADER
+========================================================================== */
+footer.footer-home {
+  width: 100%;
+  height: 18px;
+  position: relative;
+  position: fixed;
+  bottom: 0;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  background-color: transparent;
+  display: inline-block;
+  z-index: 3; }
+  @media screen and (min-width: 48em) {
+    footer.footer-home {
+      height: 60px;
+      background-color: gray;
+      z-index: 0; } }
+  footer.footer-home p.pFooter {
+    float: left;
+    margin-top: 1%;
+    margin-left: 10%; }
+    @media screen and (min-width: 30em) {
+      footer.footer-home p.pFooter {
+        margin-left: 1%; } }
+    @media screen and (min-width: 48em) {
+      footer.footer-home p.pFooter {
+        margin-top: 3%;
+        margin-left: 1%; } }
+  footer.footer-home a.linkFooter {
+    float: left;
+    margin-top: 1%;
+    position: absolute;
+    right: 8%; }
+    @media screen and (min-width: 30em) {
+      footer.footer-home a.linkFooter {
+        right: 1%; } }
+    @media screen and (min-width: 48em) {
+      footer.footer-home a.linkFooter {
+        margin-top: 3%;
+        margin-left: 3%;
+        position: relative; } }
+
+/* ==========================================================================
+                        END-HR-HEADER
+========================================================================== */
+/* ==========================================================================
+12 FONTS STYLE
+========================================================================== */
+/* ==========================================================================
+                         HR-FONTS-STYLE
+========================================================================== */
+p.pFooter {
+  font-family: "Roboto Condensed", Helvetica, Arial, "sans-serif";
+  font-size: 9px;
+  color: #06409a; }
+  @media screen and (min-width: 48em) {
+    p.pFooter {
+      font-size: 12px; } }
+
+/* ==========================================================================
+                         END-HR-FONTS-STYLE
+========================================================================== */
+/* ==========================================================================
+13 MAIN
 ========================================================================== */
 /* ==========================================================================
                          HR-MAIN
 ========================================================================== */
 .wrapper {
   width: 100%;
-  height: 100vh;
-  background-color: gray; }
+  min-height: 100vh;
+  background-image: url("../img/general/fondo.jpg");
+  background-size: cover;
+  background-position: center; }
 
 section.first-container {
   width: 100%;
-  height: 90vh;
+  min-height: 92vh;
   display: -webkit-box;
   /* OLD - iOS 6-, Safari 3.1-6 */
   display: -moz-box;
@@ -1096,13 +933,102 @@ section.first-container {
   display: flex;
   /* NEW, Spec - Opera 12.1, Firefox 20+ */
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  position: relative; }
+  @media screen and (min-width: 48em) {
+    section.first-container {
+      min-height: 85vh; } }
+  section.first-container div.second-container {
+    width: 100%;
+    max-width: 280px;
+    min-height: 85vh;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2; }
+    @media screen and (min-width: 48em) {
+      section.first-container div.second-container {
+        max-width: 350px; } }
+    section.first-container div.second-container img.copy-home {
+      width: 100%;
+      display: block;
+      margin: 0 auto;
+      padding: 0 20px;
+      margin-top: 120px;
+      -moz-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      -webkit-transition: all 0.3s;
+      transition: all 0.3s; }
+      @media screen and (min-width: 30em) {
+        section.first-container div.second-container img.copy-home {
+          width: 100%;
+          margin-top: 160px; } }
+      @media screen and (min-width: 48em) {
+        section.first-container div.second-container img.copy-home {
+          width: 90%;
+          margin-top: 140px; } }
+  section.first-container img.hasbro-content {
+    width: 390px;
+    position: absolute;
+    margin-left: -146px;
+    left: 50%;
+    z-index: 1;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s; }
+    @media screen and (min-width: 30em) {
+      section.first-container img.hasbro-content {
+        margin-left: -157px;
+        width: 420px;
+        left: 50%; } }
+    @media screen and (min-width: 48em) {
+      section.first-container img.hasbro-content {
+        width: 500px;
+        position: absolute;
+        margin-left: -186px;
+        left: 50%;
+        z-index: 1; } }
+  section.first-container img.hasbro-plays {
+    display: none; }
+    @media screen and (min-width: 48em) {
+      section.first-container img.hasbro-plays {
+        display: block;
+        width: 820px;
+        position: absolute;
+        margin-left: -465px;
+        left: 50%;
+        z-index: 1;
+        bottom: 0;
+        -moz-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s; } }
+  section.first-container img.hasbro-plays-2 {
+    display: block;
+    width: 270px;
+    position: absolute;
+    margin-left: -135px;
+    left: 50%;
+    bottom: 0;
+    z-index: 2; }
+    @media screen and (min-width: 48em) {
+      section.first-container img.hasbro-plays-2 {
+        width: 420px;
+        position: absolute;
+        margin-left: -210px;
+        left: 50%;
+        bottom: -90px;
+        -moz-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s; } }
 
 /* ==========================================================================
                          END-HR-MAIN
 ========================================================================== */
 /* ==========================================================================
-12 FORM
+14 FORM
 ========================================================================== */
 /* ==========================================================================
                          HR-MAIN
@@ -1148,14 +1074,14 @@ section.form-container {
       margin: 5px 0;
       height: 35px;
       text-indent: 10px;
-      font-family: "Lato", Helvetica, Arial, "sans-serif";
+      font-family: "Roboto", Helvetica, Arial, "sans-serif";
       text-transform: uppercase;
       font-size: 18px;
       text-align: center;
       border-radius: 60px;
       border: none;
       font-weight: 600;
-      background-color: #316d82;
+      background-color: #a50700;
       color: white; }
       section.form-container form input::placeholder {
         width: 100%;
@@ -1192,7 +1118,7 @@ label.container-checkbox {
 
 /* When the checkbox is checked, add a blue background */
 .container-checkbox input:checked ~ .checkmark {
-  background-color: #316d82; }
+  background-color: #a50700; }
 
 /* Create the checkmark/indicator (hidden when not checked) */
 .checkmark:after {
@@ -1220,8 +1146,8 @@ label.container-checkbox {
 /*the container must be positioned relative:*/
 .custom-select {
   position: relative;
-  font-family: "Lato", Helvetica, Arial, "sans-serif";
-  background-color: #316d82;
+  font-family: "Roboto", Helvetica, Arial, "sans-serif";
+  background-color: #a50700;
   color: white;
   font-weight: 600;
   font-size: 18px;
@@ -1232,7 +1158,7 @@ label.container-checkbox {
   /*hide original SELECT element:*/ }
 
 .select-selected {
-  background-color: #316d82;
+  background-color: #a50700;
   border-radius: 60px; }
 
 /*style the arrow inside the select element:*/
@@ -1263,7 +1189,7 @@ label.container-checkbox {
 /*style items (options):*/
 .select-items {
   position: absolute;
-  background-color: #316d82;
+  background-color: #a50700;
   top: 100%;
   left: 0;
   right: 0;

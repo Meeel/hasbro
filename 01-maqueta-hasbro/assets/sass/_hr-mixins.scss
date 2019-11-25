@@ -27,8 +27,10 @@ BREAKPOINT
 }
 
 /**/
-$fontPrincipal:('Lato', Helvetica, Arial, 'sans-serif');
-$fontBotones:('Lato', Helvetica, Arial, 'sans-serif');
+$fontPrincipal:('Roboto', Helvetica, Arial, 'sans-serif');
+$fontRobotoCondensed:('Roboto Condensed', Helvetica, Arial, 'sans-serif');
+$fontBotones:('Roboto', Helvetica, Arial, 'sans-serif');
+$fontTrade:('TradeMarker', Helvetica, Arial, 'sans-serif');
 
 @mixin txtPrincipal($tipo){
 	font-family: $tipo;

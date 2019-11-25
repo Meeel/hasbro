@@ -2,180 +2,6 @@
    FONTS
    ========================================================================== */ 
 
-/*-----Lato-----*/
-@font-face{
-   font-family:"Lato";
-   src: url("../fonts/lato/Lato-Hairline.ttf")format("truetype");
-   font-weight:100;
-   font-style:thin;
-}
-
-@font-face{
-   font-family:"Lato";
-   src: url("../fonts/lato/Lato-HairlineItalic.ttf")format("truetype");
-   font-weight:100;
-   font-style:italic;
-}
-
-@font-face{
-   font-family:"Lato";
-   src: url("../fonts/lato/Lato-Light.ttf")format("truetype");
-   font-weight:300;
-   font-style:light;
-}
-
-@font-face{
-   font-family:"Lato";
-   src: url("../fonts/lato/Lato-LightItalic.ttf")format("truetype");
-   font-weight:300;
-   font-style:italic;
-}
-
-@font-face{
-   font-family:"Lato";
-   src: url("../fonts/lato/Lato-Regular.ttf")format("truetype");
-   font-weight:400;
-   font-style:normal;
-}
-
-@font-face{
-   font-family:"Lato";
-   src:url("../fonts/lato/Lato-Italic.ttf.ttf")format("truetype");
-   font-weight:400;
-   font-style:italic;
-}
-
-@font-face{
-   font-family:"Lato";
-   src:url("../fonts/lato/Lato-Bold.ttf")format("truetype");
-   font-weight:700;
-   font-style:bold;
-}
-@font-face{
-   font-family:"Lato";
-   src:url("../fonts/lato/Lato-BoldItalic.ttf")format("truetype");
-   font-weight:700;
-   font-style:italic;
-}
-@font-face{
-   font-family:"Lato";
-   src:url("../fonts/lato/Lato-Black.ttf")format("truetype");
-   font-weight:800;
-   font-style:black;
-}
-/*-------Fin Lato-------*/
-
-/*-----Montserrat-----*/
-@font-face{
-   font-family:"Montserrat";
-   src: url("../fonts/Montserrat/Montserrat-Thin.ttf")format("truetype");
-   font-weight:300;
-   font-style:light;
-}
-
-@font-face{
-   font-family:"Montserrat";
-   src: url("../fonts/Montserrat/Montserrat-ThinItalic.ttf")format("truetype");
-   font-weight:300;
-   font-style:italic;
-}
-
-
-@font-face{
-   font-family:"Montserrat";
-   src: url("../fonts/Montserrat/Montserrat-Regular.ttf")format("truetype");
-   font-weight:400;
-   font-style:normal;
-}
-
-@font-face{
-   font-family:"Montserrat";
-   src:url("../fonts/Montserrat/Montserrat-Italic.ttf")format("truetype");
-   font-weight:400;
-   font-style:italic;
-}
-
-@font-face{
-   font-family:"Montserrat";
-   src:url("../fonts/Montserrat/Montserrat-Bold.ttf")format("truetype");
-   font-weight:700;
-   font-style:bold;
-}
-@font-face{
-   font-family:"Montserrat";
-   src:url("../fonts/Montserrat/Montserrat-BlackItalic.ttf")format("truetype");
-   font-weight:700;
-   font-style:italic;
-}
-
-/*-------Fin Lato-------*/
-/*-----Open Sans-----*/
-
-@font-face{
-   font-family:"Open Sans";
-   src: url("../fonts/open-sans/OpenSans-Light.ttf")format("truetype");
-   font-weight:300;
-   font-style:lighter;
-}
-
-@font-face{
-   font-family:"Open Sans";
-   src: url("../fonts/open-sans/OpenSans-LightItalic.ttf")format("truetype");
-   font-weight:300;
-   font-style:italic;
-}
-
-@font-face{
-   font-family:"Open Sans";
-   src: url("../fonts/open-sans/OpenSans-Regular.ttf")format("truetype");
-   font-weight:400;
-   font-style:normal;
-}
-
-@font-face{
-   font-family:"Open Sans";
-   src:url("../fonts/open-sans/OpenSans-Italic.ttf.ttf")format("truetype");
-   font-weight:400;
-   font-style:italic;
-}
-
-@font-face{
-   font-family:"Open Sans";
-   src:url("../fonts/open-sans/OpenSans-SemiBold.ttf")format("truetype");
-   font-weight:600;
-   font-style:medium;
-}
-@font-face{
-   font-family:"Open Sans";
-   src:url("../fonts/open-sans/OpenSans-SemiBoldItalic.ttf")format("truetype");
-   font-weight:600;
-   font-style:italic;
-}
-@font-face{
-   font-family:"Open Sans";
-   src:url("../fonts/open-sans/OpenSans-Bold.ttf")format("truetype");
-   font-weight:700;
-   font-style:bold;
-}
-@font-face{
-   font-family:"Open Sans";
-   src:url("../fonts/open-sans/OpenSans-BoldItalic.ttf")format("truetype");
-   font-weight:700;
-   font-style:italic;
-}
-@font-face{
-   font-family:"Open Sans";
-   src:url("../fonts/open-sans/OpenSans-ExtraBold.ttf")format("truetype");
-   font-weight:800;
-   font-style:black;
-}
-@font-face{
-   font-family:"Open Sans";
-   src:url("../fonts/open-sans/OpenSans-ExtraBoldItalic.ttf")format("truetype");
-   font-weight:800;
-   font-style:italic;
-}
-/*-------Fin Open Sans-------*/
 /*-------Roboto------*/
 @font-face{
    font-family:"Roboto";
@@ -261,153 +87,41 @@
    font-style:bolder;
 }
 /* ------Fin Roboto condensed------*/
-/*------Noto Serif------*/
-@font-face{
-   font-family:"Noto Serif";
-   src: url("../fonts/noto-serif/NotoSerif-Regular.ttf")format("truetype");
-   font-weight:400;
-   font-style:normal;
+/*--------Font Trade Marker--------*/
+@font-face {
+    font-family: 'TradeMarker';
+    src: url('../fonts/trade-marker/TradeMarker-Light.woff2') format('woff2'),
+        url('../fonts/trade-marker/TradeMarker-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
 }
 
-@font-face{
-  font-family:"Noto Serif";
-  src: url("../fonts/noto-serif/NotoSerif-Italic.ttf")format("truetype");
-  font-weight:400;
-  font-style:italic;
+@font-face {
+    font-family: 'TradeMarker';
+    src: url('../fonts/trade-marker/TradeMarker-LightItalicAlt.woff2') format('woff2'),
+        url('../fonts/trade-marker/TradeMarker-LightItalicAlt.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
 }
 
-@font-face{
-  font-family:"Noto Serif";
-  src: url("../fonts/noto-serif/NotoSerif-Bold.ttf")format("truetype");
-  font-weight:700;
-  font-style:bold;
+@font-face {
+    font-family: 'TradeMarker';
+    src: url('../fonts/trade-marker/TradeMarker-LightAlt.woff2') format('woff2'),
+        url('../fonts/trade-marker/TradeMarker-LightAlt.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
 }
 
+@font-face {
+    font-family: 'TradeMarker';
+    src: url('../fonts/trade-marker/TradeMarker-Fat.woff2') format('woff2'),
+        url('../fonts/trade-marker/TradeMarker-Fat.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* ------Fin -Trade Marker-----*/
 
-@font-face{
-  font-family:"Noto Serif";
-  src: url("../fonts/noto-serif/NotoSerif-BoldItalic.ttf")format("truetype");
-  font-weight:700;
-  font-style:italic;
-}
 
-/*------Fin Noto Serif------*/
-/*------Brandon*------*/
-@font-face{
-   font-family:"Brandon";
-   src: url("../fonts/Brandon/BrandonText-Regular.otf");
-   font-weight:400;
-   font-style:normal;
-}
-@font-face{
-   font-family:"Brandon";
-   src: url("../fonts/Brandon/BrandonText-RegularItalic.otf");
-   font-weight:400;
-   font-style:italic;
-}
-@font-face{
-   font-family:"Brandon";
-   src: url("../fonts/Brandon/BrandonText-Bold.otf");
-   font-weight:600;
-   font-style:bold;
-}
-@font-face{
-   font-family:"Brandon";
-   src: url("../fonts/Brandon/BrandonText-BoldItalic.otf");
-   font-weight:600;
-   font-style:italic;
-}
-@font-face{
-   font-family:"Brandon";
-   src: url("../fonts/Brandon/BrandonText-Black.otf");
-   font-weight:900;
-   font-style:black;
-}
-@font-face{
-   font-family:"Brandon";
-   src: url("../fonts/Brandon/BrandonText-BlackItalic.otf");
-   font-weight:900;
-   font-style:italic;
-}
-/*-------Fin Brandon-------*/
-/*-------Rozha One-------*/
-@font-face{
-   font-family:"Rozha";
-   src:url("../fonts/rozha_one/RozhaOne-Regular.ttf")  ;
-   font-weight:400;
-   font-style:normal;
-}
-/*-------Fin Rozha One-------*/
-/*-------Rubik-------*/
-@font-face{
-   font-family:"Rubik";
-   src: url("../fonts/rubik/Rubik-Light.ttf")format("truetype");
-   font-weight:200;
-   font-style:lighter;
-}
-@font-face{
-   font-family:"Rubik";
-   src: url("../fonts/rubik/Rubik-LightItalic.ttf")format("truetype");
-   font-weight:200;
-   font-style:italic;
-}
-@font-face{
-   font-family:"Rubik";
-   src: url("../fonts/rubik/Rubik-Regular.ttf")format("truetype");
-   font-weight:400;
-   font-style:normal;
-}
-@font-face{
-   font-family:"Rubik";
-   src: url("../fonts/rubik/Rubik-Italic.ttf")format("truetype");
-   font-weight:400;
-   font-style:italic;
-}
-@font-face{
-   font-family:"Rubik";
-   src: url("../fonts/rubik/Rubik-Medium.ttf")format("truetype");
-   font-weight:500;
-   font-style:normal;
-}
-@font-face{
-   font-family:"Rubik";
-   src: url("../fonts/rubik/Rubik-Bold.ttf")format("truetype");
-   font-weight:700;
-   font-style:bold;
-}
-@font-face{
-   font-family:"Rubik";
-   src: url("../fonts/rubik/Rubik-Black.ttf")format("truetype");
-   font-weight:900;
-   font-style:black;
-}
-/*-------Fin Rubik-------*/
-/*-------Playfair Display-------*/
-@font-face{
-   font-family:"Playfair";
-   src: url("../fonts/playfair-display/PlayfairDisplay-Regular.otf")format("opentypee");
-   font-weight:400;
-   font-style:normal;
-}
-@font-face{
-   font-family:"Playfair";
-   src: url("../fonts/playfair-display/PlayfairDisplay-Italic.otf")format("opentype");
-   font-weight:400;
-   font-style:italic;
-}
-@font-face{
-   font-family:"Playfair";
-   src: url("../fonts/playfair-display/PlayfairDisplay-Bold.otf")format("opentype");
-   font-weight:600;
-   font-style:bold;
-}
-@font-face{
-   font-family:"Playfair";
-   src: url("../fonts/playfair-display/PlayfairDisplay-BoldItalic.otf")format("opentype");
-   font-weight:600;
-   font-style:italic;
-}
-/*-------Fin Playfair Display-------*/
 /* ==========================================================================
    FIN FONTS
    ========================================================================== */ 

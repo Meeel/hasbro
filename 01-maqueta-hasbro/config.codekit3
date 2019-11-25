@@ -7,7 +7,7 @@
 		"uuidString": "A17BC66C-5340-44E6-844D-BC8F692A0CE5"
 		}
 	],
-"creatorBuild": "29156",
+"creatorBuild": "31934",
 "files": {
 	"/assets/css/animate.min.css": {
 		"aP": 1,
@@ -94,566 +94,6 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/assets/docs/textos.rtf",
-		"oF": 0
-		},
-	"/assets/fonts/brandon/BrandonText-Black.otf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/brandon/BrandonText-Black.otf",
-		"oF": 0
-		},
-	"/assets/fonts/brandon/BrandonText-BlackItalic.otf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/brandon/BrandonText-BlackItalic.otf",
-		"oF": 0
-		},
-	"/assets/fonts/brandon/BrandonText-Bold.otf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/brandon/BrandonText-Bold.otf",
-		"oF": 0
-		},
-	"/assets/fonts/brandon/BrandonText-BoldItalic.otf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/brandon/BrandonText-BoldItalic.otf",
-		"oF": 0
-		},
-	"/assets/fonts/brandon/BrandonText-Light.otf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/brandon/BrandonText-Light.otf",
-		"oF": 0
-		},
-	"/assets/fonts/brandon/BrandonText-LightItalic.otf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/brandon/BrandonText-LightItalic.otf",
-		"oF": 0
-		},
-	"/assets/fonts/brandon/BrandonText-Medium.otf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/brandon/BrandonText-Medium.otf",
-		"oF": 0
-		},
-	"/assets/fonts/brandon/BrandonText-MediumItalic.otf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/brandon/BrandonText-MediumItalic.otf",
-		"oF": 0
-		},
-	"/assets/fonts/brandon/BrandonText-Regular.otf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/brandon/BrandonText-Regular.otf",
-		"oF": 0
-		},
-	"/assets/fonts/brandon/BrandonText-RegularItalic.otf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/brandon/BrandonText-RegularItalic.otf",
-		"oF": 0
-		},
-	"/assets/fonts/brandon/BrandonText-Thin.otf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/brandon/BrandonText-Thin.otf",
-		"oF": 0
-		},
-	"/assets/fonts/brandon/BrandonText-ThinItalic.otf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/brandon/BrandonText-ThinItalic.otf",
-		"oF": 0
-		},
-	"/assets/fonts/lato/Lato-Black.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/lato/Lato-Black.ttf",
-		"oF": 0
-		},
-	"/assets/fonts/lato/Lato-BlackItalic.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/lato/Lato-BlackItalic.ttf",
-		"oF": 0
-		},
-	"/assets/fonts/lato/Lato-Bold.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/lato/Lato-Bold.ttf",
-		"oF": 0
-		},
-	"/assets/fonts/lato/Lato-BoldItalic.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/lato/Lato-BoldItalic.ttf",
-		"oF": 0
-		},
-	"/assets/fonts/lato/Lato-Hairline.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/lato/Lato-Hairline.ttf",
-		"oF": 0
-		},
-	"/assets/fonts/lato/Lato-HairlineItalic.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/lato/Lato-HairlineItalic.ttf",
-		"oF": 0
-		},
-	"/assets/fonts/lato/Lato-Italic.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/lato/Lato-Italic.ttf",
-		"oF": 0
-		},
-	"/assets/fonts/lato/Lato-Light.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/lato/Lato-Light.ttf",
-		"oF": 0
-		},
-	"/assets/fonts/lato/Lato-LightItalic.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/lato/Lato-LightItalic.ttf",
-		"oF": 0
-		},
-	"/assets/fonts/lato/Lato-Regular.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/lato/Lato-Regular.ttf",
-		"oF": 0
-		},
-	"/assets/fonts/lato/OFL.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/lato/OFL.txt",
-		"oF": 0
-		},
-	"/assets/fonts/Montserrat/Montserrat-Black.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/Montserrat/Montserrat-Black.ttf",
-		"oF": 0
-		},
-	"/assets/fonts/Montserrat/Montserrat-BlackItalic.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/Montserrat/Montserrat-BlackItalic.ttf",
-		"oF": 0
-		},
-	"/assets/fonts/Montserrat/Montserrat-Bold.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/Montserrat/Montserrat-Bold.ttf",
-		"oF": 0
-		},
-	"/assets/fonts/Montserrat/Montserrat-BoldItalic.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/Montserrat/Montserrat-BoldItalic.ttf",
-		"oF": 0
-		},
-	"/assets/fonts/Montserrat/Montserrat-ExtraBold.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/Montserrat/Montserrat-ExtraBold.ttf",
-		"oF": 0
-		},
-	"/assets/fonts/Montserrat/Montserrat-ExtraBoldItalic.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/Montserrat/Montserrat-ExtraBoldItalic.ttf",
-		"oF": 0
-		},
-	"/assets/fonts/Montserrat/Montserrat-ExtraLight.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/Montserrat/Montserrat-ExtraLight.ttf",
-		"oF": 0
-		},
-	"/assets/fonts/Montserrat/Montserrat-ExtraLightItalic.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/Montserrat/Montserrat-ExtraLightItalic.ttf",
-		"oF": 0
-		},
-	"/assets/fonts/Montserrat/Montserrat-Italic.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/Montserrat/Montserrat-Italic.ttf",
-		"oF": 0
-		},
-	"/assets/fonts/Montserrat/Montserrat-Light.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/Montserrat/Montserrat-Light.ttf",
-		"oF": 0
-		},
-	"/assets/fonts/Montserrat/Montserrat-LightItalic.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/Montserrat/Montserrat-LightItalic.ttf",
-		"oF": 0
-		},
-	"/assets/fonts/Montserrat/Montserrat-Medium.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/Montserrat/Montserrat-Medium.ttf",
-		"oF": 0
-		},
-	"/assets/fonts/Montserrat/Montserrat-MediumItalic.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/Montserrat/Montserrat-MediumItalic.ttf",
-		"oF": 0
-		},
-	"/assets/fonts/Montserrat/Montserrat-Regular.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/Montserrat/Montserrat-Regular.ttf",
-		"oF": 0
-		},
-	"/assets/fonts/Montserrat/Montserrat-SemiBold.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/Montserrat/Montserrat-SemiBold.ttf",
-		"oF": 0
-		},
-	"/assets/fonts/Montserrat/Montserrat-SemiBoldItalic.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/Montserrat/Montserrat-SemiBoldItalic.ttf",
-		"oF": 0
-		},
-	"/assets/fonts/Montserrat/Montserrat-Thin.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/Montserrat/Montserrat-Thin.ttf",
-		"oF": 0
-		},
-	"/assets/fonts/Montserrat/Montserrat-ThinItalic.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/Montserrat/Montserrat-ThinItalic.ttf",
-		"oF": 0
-		},
-	"/assets/fonts/Montserrat/OFL.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/Montserrat/OFL.txt",
-		"oF": 0
-		},
-	"/assets/fonts/noto-serif/NotoSerif-Bold.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/noto-serif/NotoSerif-Bold.ttf",
-		"oF": 0
-		},
-	"/assets/fonts/noto-serif/NotoSerif-BoldItalic.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/noto-serif/NotoSerif-BoldItalic.ttf",
-		"oF": 0
-		},
-	"/assets/fonts/noto-serif/NotoSerif-Italic.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/noto-serif/NotoSerif-Italic.ttf",
-		"oF": 0
-		},
-	"/assets/fonts/noto-serif/NotoSerif-Regular.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/noto-serif/NotoSerif-Regular.ttf",
-		"oF": 0
-		},
-	"/assets/fonts/open-sans/LICENSE.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/open-sans/LICENSE.txt",
-		"oF": 0
-		},
-	"/assets/fonts/open-sans/OpenSans-Bold.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/open-sans/OpenSans-Bold.ttf",
-		"oF": 0
-		},
-	"/assets/fonts/open-sans/OpenSans-BoldItalic.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/open-sans/OpenSans-BoldItalic.ttf",
-		"oF": 0
-		},
-	"/assets/fonts/open-sans/OpenSans-ExtraBold.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/open-sans/OpenSans-ExtraBold.ttf",
-		"oF": 0
-		},
-	"/assets/fonts/open-sans/OpenSans-ExtraBoldItalic.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/open-sans/OpenSans-ExtraBoldItalic.ttf",
-		"oF": 0
-		},
-	"/assets/fonts/open-sans/OpenSans-Italic.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/open-sans/OpenSans-Italic.ttf",
-		"oF": 0
-		},
-	"/assets/fonts/open-sans/OpenSans-Light.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/open-sans/OpenSans-Light.ttf",
-		"oF": 0
-		},
-	"/assets/fonts/open-sans/OpenSans-LightItalic.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/open-sans/OpenSans-LightItalic.ttf",
-		"oF": 0
-		},
-	"/assets/fonts/open-sans/OpenSans-Regular.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/open-sans/OpenSans-Regular.ttf",
-		"oF": 0
-		},
-	"/assets/fonts/open-sans/OpenSans-SemiBold.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/open-sans/OpenSans-SemiBold.ttf",
-		"oF": 0
-		},
-	"/assets/fonts/open-sans/OpenSans-SemiBoldItalic.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/open-sans/OpenSans-SemiBoldItalic.ttf",
-		"oF": 0
-		},
-	"/assets/fonts/playfair-display/PlayfairDisplay-Black.otf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/playfair-display/PlayfairDisplay-Black.otf",
-		"oF": 0
-		},
-	"/assets/fonts/playfair-display/PlayfairDisplay-BlackItalic.otf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/playfair-display/PlayfairDisplay-BlackItalic.otf",
-		"oF": 0
-		},
-	"/assets/fonts/playfair-display/PlayfairDisplay-Bold.otf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/playfair-display/PlayfairDisplay-Bold.otf",
-		"oF": 0
-		},
-	"/assets/fonts/playfair-display/PlayfairDisplay-BoldItalic.otf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/playfair-display/PlayfairDisplay-BoldItalic.otf",
-		"oF": 0
-		},
-	"/assets/fonts/playfair-display/PlayfairDisplay-Italic.otf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/playfair-display/PlayfairDisplay-Italic.otf",
-		"oF": 0
-		},
-	"/assets/fonts/playfair-display/PlayfairDisplay-Regular.otf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/playfair-display/PlayfairDisplay-Regular.otf",
-		"oF": 0
-		},
-	"/assets/fonts/playfair-display/PlayfairDisplaySC-Black.otf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/playfair-display/PlayfairDisplaySC-Black.otf",
-		"oF": 0
-		},
-	"/assets/fonts/playfair-display/PlayfairDisplaySC-BlackItalic.otf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/playfair-display/PlayfairDisplaySC-BlackItalic.otf",
-		"oF": 0
-		},
-	"/assets/fonts/playfair-display/PlayfairDisplaySC-Bold.otf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/playfair-display/PlayfairDisplaySC-Bold.otf",
-		"oF": 0
-		},
-	"/assets/fonts/playfair-display/PlayfairDisplaySC-BoldItalic.otf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/playfair-display/PlayfairDisplaySC-BoldItalic.otf",
-		"oF": 0
-		},
-	"/assets/fonts/playfair-display/PlayfairDisplaySC-Italic.otf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/playfair-display/PlayfairDisplaySC-Italic.otf",
-		"oF": 0
-		},
-	"/assets/fonts/playfair-display/PlayfairDisplaySC-Regular.otf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/playfair-display/PlayfairDisplaySC-Regular.otf",
-		"oF": 0
-		},
-	"/assets/fonts/playfair-display/SIL Open Font License.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/playfair-display/SIL Open Font License.txt",
 		"oF": 0
 		},
 	"/assets/fonts/roboto-condensed/RobotoCondensed-Bold.ttf": {
@@ -808,253 +248,120 @@
 		"oAP": "/assets/fonts/roboto/Roboto-ThinItalic.ttf",
 		"oF": 0
 		},
-	"/assets/fonts/rozha_one/OFL.txt": {
+	"/assets/fonts/trade-marker/demo.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/assets/fonts/rozha_one/OFL.txt",
+		"oAP": "/assets/fonts/trade-marker/demo.html",
 		"oF": 0
 		},
-	"/assets/fonts/rozha_one/RozhaOne-Regular.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/rozha_one/RozhaOne-Regular.ttf",
-		"oF": 0
-		},
-	"/assets/fonts/rubik/OFL.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/rubik/OFL.txt",
-		"oF": 0
-		},
-	"/assets/fonts/rubik/Rubik-Black.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/rubik/Rubik-Black.ttf",
-		"oF": 0
-		},
-	"/assets/fonts/rubik/Rubik-BlackItalic.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/rubik/Rubik-BlackItalic.ttf",
-		"oF": 0
-		},
-	"/assets/fonts/rubik/Rubik-Bold.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/rubik/Rubik-Bold.ttf",
-		"oF": 0
-		},
-	"/assets/fonts/rubik/Rubik-BoldItalic.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/rubik/Rubik-BoldItalic.ttf",
-		"oF": 0
-		},
-	"/assets/fonts/rubik/Rubik-Italic.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/rubik/Rubik-Italic.ttf",
-		"oF": 0
-		},
-	"/assets/fonts/rubik/Rubik-Light.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/rubik/Rubik-Light.ttf",
-		"oF": 0
-		},
-	"/assets/fonts/rubik/Rubik-LightItalic.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/rubik/Rubik-LightItalic.ttf",
-		"oF": 0
-		},
-	"/assets/fonts/rubik/Rubik-Medium.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/rubik/Rubik-Medium.ttf",
-		"oF": 0
-		},
-	"/assets/fonts/rubik/Rubik-MediumItalic.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/rubik/Rubik-MediumItalic.ttf",
-		"oF": 0
-		},
-	"/assets/fonts/rubik/Rubik-Regular.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/rubik/Rubik-Regular.ttf",
-		"oF": 0
-		},
-	"/assets/fonts/web_font/demo.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/web_font/demo.html",
-		"oF": 0
-		},
-	"/assets/fonts/web_font/SamsungSharpSans-Bold.eot": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/web_font/SamsungSharpSans-Bold.eot",
-		"oF": 0
-		},
-	"/assets/fonts/web_font/SamsungSharpSans-Bold.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/assets/fonts/web_font/SamsungSharpSans-Bold.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/assets/fonts/web_font/SamsungSharpSans-Bold.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/web_font/SamsungSharpSans-Bold.ttf",
-		"oF": 0
-		},
-	"/assets/fonts/web_font/SamsungSharpSans-Bold.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/web_font/SamsungSharpSans-Bold.woff",
-		"oF": 0
-		},
-	"/assets/fonts/web_font/SamsungSharpSans-Bold.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/web_font/SamsungSharpSans-Bold.woff2",
-		"oF": 0
-		},
-	"/assets/fonts/web_font/SamsungSharpSans-Medium.eot": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/web_font/SamsungSharpSans-Medium.eot",
-		"oF": 0
-		},
-	"/assets/fonts/web_font/SamsungSharpSans-Medium.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/assets/fonts/web_font/SamsungSharpSans-Medium.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/assets/fonts/web_font/SamsungSharpSans-Medium.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/web_font/SamsungSharpSans-Medium.ttf",
-		"oF": 0
-		},
-	"/assets/fonts/web_font/SamsungSharpSans-Medium.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/web_font/SamsungSharpSans-Medium.woff",
-		"oF": 0
-		},
-	"/assets/fonts/web_font/SamsungSharpSans-Medium.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/web_font/SamsungSharpSans-Medium.woff2",
-		"oF": 0
-		},
-	"/assets/fonts/web_font/SamsungSharpSans-Regular.eot": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/web_font/SamsungSharpSans-Regular.eot",
-		"oF": 0
-		},
-	"/assets/fonts/web_font/SamsungSharpSans-Regular.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/assets/fonts/web_font/SamsungSharpSans-Regular.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/assets/fonts/web_font/SamsungSharpSans-Regular.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/web_font/SamsungSharpSans-Regular.ttf",
-		"oF": 0
-		},
-	"/assets/fonts/web_font/SamsungSharpSans-Regular.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/web_font/SamsungSharpSans-Regular.woff",
-		"oF": 0
-		},
-	"/assets/fonts/web_font/SamsungSharpSans-Regular.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/fonts/web_font/SamsungSharpSans-Regular.woff2",
-		"oF": 0
-		},
-	"/assets/fonts/web_font/stylesheet.css": {
+	"/assets/fonts/trade-marker/stylesheet.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/assets/fonts/web_font/stylesheet-min.css",
+		"oAP": "/assets/fonts/trade-marker/stylesheet-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"/assets/fonts/trade-marker/TradeMarker-Fat.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/fonts/trade-marker/TradeMarker-Fat.woff",
+		"oF": 0
+		},
+	"/assets/fonts/trade-marker/TradeMarker-Fat.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/fonts/trade-marker/TradeMarker-Fat.woff2",
+		"oF": 0
+		},
+	"/assets/fonts/trade-marker/TradeMarker-Light.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/fonts/trade-marker/TradeMarker-Light.woff",
+		"oF": 0
+		},
+	"/assets/fonts/trade-marker/TradeMarker-Light.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/fonts/trade-marker/TradeMarker-Light.woff2",
+		"oF": 0
+		},
+	"/assets/fonts/trade-marker/TradeMarker-LightAlt.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/fonts/trade-marker/TradeMarker-LightAlt.woff",
+		"oF": 0
+		},
+	"/assets/fonts/trade-marker/TradeMarker-LightAlt.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/fonts/trade-marker/TradeMarker-LightAlt.woff2",
+		"oF": 0
+		},
+	"/assets/fonts/trade-marker/TradeMarker-LightItalicAlt.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/fonts/trade-marker/TradeMarker-LightItalicAlt.woff",
+		"oF": 0
+		},
+	"/assets/fonts/trade-marker/TradeMarker-LightItalicAlt.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/fonts/trade-marker/TradeMarker-LightItalicAlt.woff2",
+		"oF": 0
+		},
+	"/assets/img/botones/btn_jugar.png": {
+		"ft": 32768,
+		"iS": 11810,
+		"oA": 0,
+		"oAP": "/assets/img/botones/btn_jugar.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/botones/btn_participar.png": {
+		"ft": 32768,
+		"iS": 12894,
+		"oA": 0,
+		"oAP": "/assets/img/botones/btn_participar.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/botones/btn_registrar.png": {
+		"ft": 32768,
+		"iS": 12859,
+		"oA": 0,
+		"oAP": "/assets/img/botones/btn_registrar.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"/assets/img/favicon.ico": {
 		"cB": 0,
@@ -1064,121 +371,132 @@
 		"oAP": "/assets/img/favicon.ico",
 		"oF": 0
 		},
-	"/assets/img/home/btn_jugar.png": {
-		"ft": 32768,
-		"iS": 4108,
-		"oA": 0,
-		"oAP": "/assets/img/home/btn_jugar.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/home/fondo_01_home.jpg": {
+	"/assets/img/general/fondo.jpg": {
 		"ft": 16384,
-		"iS": 151265,
+		"iS": 169081,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/assets/img/home/fondo_01_home.jpg",
+		"oAP": "/assets/img/general/fondo.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/assets/img/home/galaxy_phones_home.png": {
+	"/assets/img/general/fondo_footer.png": {
 		"ft": 32768,
-		"iS": 26129,
+		"iS": 427,
 		"oA": 0,
-		"oAP": "/assets/img/home/galaxy_phones_home.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/home/logo_avengers_home.png": {
-		"ft": 32768,
-		"iS": 49244,
-		"oA": 0,
-		"oAP": "/assets/img/home/logo_avengers_home.png",
+		"oAP": "/assets/img/general/fondo_footer.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/img/home/logo_galaxy.png": {
-		"ft": 32768,
-		"iS": 3799,
+	"/assets/img/general/fondo_instrucciones.jpg": {
+		"ft": 16384,
+		"iS": 225018,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "/assets/img/home/logo_galaxy.png",
+		"oAP": "/assets/img/general/fondo_instrucciones.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/img/general/fondo_registro.jpg": {
+		"ft": 16384,
+		"iS": 238026,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/general/fondo_registro.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/img/general/footer_der.png": {
+		"ft": 32768,
+		"iS": 17220,
+		"oA": 0,
+		"oAP": "/assets/img/general/footer_der.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/img/home/logos_samsung_home.png": {
+	"/assets/img/general/footer_izq.png": {
 		"ft": 32768,
-		"iS": 3774,
+		"iS": 4096,
 		"oA": 0,
-		"oAP": "/assets/img/home/logos_samsung_home.png",
+		"oAP": "/assets/img/general/footer_izq.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/img/home/marvel_home.png": {
+	"/assets/img/general/header.png": {
 		"ft": 32768,
-		"iS": 1333,
+		"iS": 32464,
 		"oA": 0,
-		"oAP": "/assets/img/home/marvel_home.png",
+		"oAP": "/assets/img/general/header.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/img/home/menu_boton_home.png": {
+	"/assets/img/general/menu.png": {
 		"ft": 32768,
-		"iS": 2209,
+		"iS": 1240,
 		"oA": 0,
-		"oAP": "/assets/img/home/menu_boton_home.png",
+		"oAP": "/assets/img/general/menu.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/img/home/personajes.png": {
+	"/assets/img/home/container_home.png": {
 		"ft": 32768,
-		"iS": 489396,
+		"iS": 106366,
 		"oA": 0,
-		"oAP": "/assets/img/home/personajes.png",
+		"oAP": "/assets/img/home/container_home.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/img/home/pleca_home.png": {
+	"/assets/img/home/copy_home.png": {
 		"ft": 32768,
-		"iS": 42778,
+		"iS": 12843,
 		"oA": 0,
-		"oAP": "/assets/img/home/pleca_home.png",
+		"oAP": "/assets/img/home/copy_home.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/img/home/samsung_members_home.png": {
+	"/assets/img/home/personajes_home.png": {
 		"ft": 32768,
-		"iS": 1502,
+		"iS": 88187,
 		"oA": 0,
-		"oAP": "/assets/img/home/samsung_members_home.png",
+		"oAP": "/assets/img/home/personajes_home.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/home/personajes_home2.png": {
+		"ft": 32768,
+		"iS": 95161,
+		"oA": 0,
+		"oAP": "/assets/img/home/personajes_home2.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1551,6 +869,94 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/assets/img/mecanica/dos_mec.png": {
+		"ft": 32768,
+		"iS": 1553,
+		"oA": 0,
+		"oAP": "/assets/img/mecanica/dos_mec.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/mecanica/tres_mec.png": {
+		"ft": 32768,
+		"iS": 1279,
+		"oA": 0,
+		"oAP": "/assets/img/mecanica/tres_mec.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/mecanica/uno_mec.png": {
+		"ft": 32768,
+		"iS": 1173,
+		"oA": 0,
+		"oAP": "/assets/img/mecanica/uno_mec.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/titulos/tit_bases.png": {
+		"ft": 32768,
+		"iS": 2649,
+		"oA": 0,
+		"oAP": "/assets/img/titulos/tit_bases.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/titulos/tit_instrucciones.png": {
+		"ft": 32768,
+		"iS": 4236,
+		"oA": 0,
+		"oAP": "/assets/img/titulos/tit_instrucciones.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/titulos/tit_mecanica.png": {
+		"ft": 32768,
+		"iS": 3249,
+		"oA": 0,
+		"oAP": "/assets/img/titulos/tit_mecanica.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/titulos/tit_premio.png": {
+		"ft": 32768,
+		"iS": 3130,
+		"oA": 0,
+		"oAP": "/assets/img/titulos/tit_premio.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/titulos/tit_registro.png": {
+		"ft": 32768,
+		"iS": 3371,
+		"oA": 0,
+		"oAP": "/assets/img/titulos/tit_registro.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/assets/js/beforeandafter/jquery.event.move.js": {
 		"bF": 0,
 		"ft": 64,
@@ -1722,6 +1128,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/assets/sass/_hr-fonts-style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/assets/sass/_hr-fonts-style.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/assets/sass/_hr-fonts.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1731,6 +1150,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/sass/_hr-fonts.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/assets/sass/_hr-footer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/assets/sass/_hr-footer.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1875,13 +1307,14 @@
 	},
 "projectAttributes": {
 	"creationDate": 576871066.25074303,
-	"displayValue": "Maqueta",
+	"displayValue": "01-maqueta-hasbro",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-facepalm",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
+	"allowInjectionReloads": 1,
 	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
@@ -1893,6 +1326,7 @@
 	"babelConfigType": 0,
 	"babelCustomPluginsList": "",
 	"babelCustomPresetsList": "",
+	"babelExcludeString": "/\\/node_modules\\//, /\\/core-js\\//, /\\/bower_components\\//",
 	"babelInsertModuleIDs": 0,
 	"babelModuleID": "",
 	"babelNoComments": 0,
@@ -2032,6 +1466,9 @@
 		"modules-umd": {
 			"active": 0
 			},
+		"named-capturing-groups-regex": {
+			"active": 0
+			},
 		"new-target": {
 			"active": 0
 			},
@@ -2063,6 +1500,9 @@
 			"active": 0
 			},
 		"parameters": {
+			"active": 0
+			},
+		"partial-application": {
 			"active": 0
 			},
 		"pipeline-operator": {
@@ -2157,11 +1597,10 @@
 			}
 		},
 	"babelRetainLines": 0,
+	"babelUseBuiltInsType": 0,
 	"bowerAbbreviatedPath": "bower_components",
-	"bowerAutoCreateInfoFile": 1,
-	"bowerInstallDevDependencies": 0,
-	"bowerSaveDependencies": 1,
-	"bowerSaveDevDependencies": 0,
+	"bowerForceLatestOnConflict": 1,
+	"bowerTargetDependencyListType": 1,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
 	"browserslistString": ">0.2%, last 2 versions, Firefox ESR, not dead",
@@ -2306,6 +1745,7 @@
 			"flagValue": -1
 			}
 		},
+	"environmentVariablesString": "NODE_ENV:::production",
 	"esLintConfigFileHandlingType": 0,
 	"esLintECMAVersion": 7,
 	"esLintEnvironmentsMask": 1,
@@ -2407,6 +1847,10 @@
 			"optionString": "'all'"
 			},
 		"default-case": {
+			"active": 0,
+			"optionString": ""
+			},
+		"default-param-last": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -2756,6 +2200,10 @@
 			},
 		"no-implied-eval": {
 			"active": 0,
+			"optionString": ""
+			},
+		"no-import-assign": {
+			"active": 1,
 			"optionString": ""
 			},
 		"no-inline-comments": {
@@ -3166,6 +2614,10 @@
 			"active": 0,
 			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
 			},
+		"prefer-named-capture-group": {
+			"active": 0,
+			"optionString": ""
+			},
 		"prefer-numeric-literals": {
 			"active": 0,
 			"optionString": ""
@@ -3177,6 +2629,10 @@
 		"prefer-promise-reject-errors": {
 			"active": 0,
 			"optionString": "{'allowEmptyReject': false}"
+			},
+		"prefer-regex-literals": {
+			"active": 0,
+			"optionString": ""
 			},
 		"prefer-rest-params": {
 			"active": 0,
@@ -3786,7 +3242,6 @@
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 1,
 		"enableJavascript": 0,
-		"ieCompatibility": 0,
 		"mathStyle": 0,
 		"outputStyle": 0,
 		"rewriteURLStyle": 0,
@@ -3919,8 +3374,16 @@
 		},
 	"languageDefaultsUserDefined": [
 		],
+	"npmAbbreviatedPath": "",
+	"npmCreatePackageLock": 1,
+	"npmInstallOptionalDependencies": 0,
+	"npmSaveExactVersion": 0,
+	"npmTargetDependencyListType": 1,
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
+	"rollupExternals": "",
+	"rollupReplacements": "process.env.NODE_ENV:::$NODE_ENV,,,ENVIRONMENT:::$NODE_ENV",
+	"rollupTreeshakingEnabled": 1,
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, /storage/framework/sessions, node_modules",
 	"sourceFolderName": "source",
 	"susyVersion": 3,

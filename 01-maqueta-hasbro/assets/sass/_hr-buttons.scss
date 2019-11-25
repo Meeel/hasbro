@@ -78,26 +78,52 @@ a{
         color: $colorPrincipal;
         cursor: pointer;
         width: 100%;
-        max-width: 280px;
+        max-width: 200px;
         height: auto;
+        display: block;
+        margin: 0 auto;
+        @include breakpoint(tablet){
+          max-width: 280px;  
+        }
         button{
             &.btn{
-                max-width: 280px;
+                max-width: 200px;
                 width: 100%;
-                height: 60px;
-                border-radius: 60px;
+                height: 40px;
                 border: none;
-                background-color: $colorPrincipal;
+                background-color: transparent;
+                background-size: cover;
                 color: white;
                 cursor: pointer;
-                @include transition(.3s);
-                @include txtBotones($fontBotones, white);
-                @include breakpoint(desktop){
-                    &:hover{
-                        background-color:$hoverPrincipal;
-                    }
+                background-repeat: no-repeat;
+                @include breakpoint(tablet){
+                    max-width: 280px;
+                    width: 100%;
+                    height: 60px;
                 }
             }
+            &.btn-participar{
+                position:relative;
+                z-index:3;
+                background-image: url('../img/botones/btn_participar.png');
+                @include breakpoint(desktop){
+                    &:hover{
+                            background-position-y: -60px;
+                    }
+                }
+
+            }
+        }
+    }
+    &.linkFooter{
+        font-family: $fontRobotoCondensed;
+        font-size: 9px;
+        color:$colorSecundario;
+        text-decoration: underline;
+        cursor: pointer;
+        @include transition(.3s);
+        @include breakpoint(tablet){
+            font-size: 12px;
         }
     }
 }
