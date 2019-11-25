@@ -24,12 +24,17 @@ section{
 			&.second-container{
 				width: 100%;
 				max-width: 280px;
-				min-height: 85vh;
+				min-height: 55vh;
 				display: block;
 				margin: 0 auto;
 				position: relative;
 				z-index: 2;
+				@include breakpoint(mobile){
+					min-height: 75vh;
+					max-width:290px;
+				}
 				@include breakpoint(tablet){
+					min-height: 85vh;
 					max-width:350px;
 				}
 				img{
@@ -38,15 +43,15 @@ section{
 						display: block;
 						margin: 0 auto;
 						padding: 0 20px;
-						margin-top: 120px;
+						margin-top: 32%;
 						@include transition(.3s);
 						@include breakpoint(mobile){
 							width: 100%;
-							margin-top: 160px;
+							margin-top: 40%;
 						}
 						@include breakpoint(tablet){
 							width: 90%;
-							margin-top: 140px;
+							margin-top: 37%;
 
 						}
 					}
@@ -60,6 +65,7 @@ section{
 				margin-left:-146px;
 				left:50%;
 				z-index:1;
+				bottom: 0;
 				@include transition(.2s);
 				@include breakpoint(mobile){
 					margin-left:-157px;
@@ -72,6 +78,7 @@ section{
 					margin-left:-186px;
 					left:50%;
 					z-index:1;
+					bottom:-110px;
 				}
 			}
 			&.hasbro-plays{

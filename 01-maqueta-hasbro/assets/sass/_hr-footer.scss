@@ -21,7 +21,7 @@ footer{
     		&.pFooter{
     			float: left;
     			margin-top: 1%;
-                margin-left: 10%;
+                margin-left: 17%;
                 @include breakpoint(mobile){
                     margin-left:1%;
                 }
@@ -36,7 +36,7 @@ footer{
     			float: left;
     			margin-top: 1%;
                 position: absolute;
-                right: 8%;
+                right: 15%;
                 @include breakpoint(mobile){
                     right: 1%;
                 }

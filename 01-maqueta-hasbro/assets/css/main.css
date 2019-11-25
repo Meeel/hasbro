@@ -864,7 +864,7 @@ footer.footer-home {
   footer.footer-home p.pFooter {
     float: left;
     margin-top: 1%;
-    margin-left: 10%; }
+    margin-left: 17%; }
     @media screen and (min-width: 30em) {
       footer.footer-home p.pFooter {
         margin-left: 1%; } }
@@ -876,7 +876,7 @@ footer.footer-home {
     float: left;
     margin-top: 1%;
     position: absolute;
-    right: 8%; }
+    right: 15%; }
     @media screen and (min-width: 30em) {
       footer.footer-home a.linkFooter {
         right: 1%; } }
@@ -941,20 +941,25 @@ section.first-container {
   section.first-container div.second-container {
     width: 100%;
     max-width: 280px;
-    min-height: 85vh;
+    min-height: 55vh;
     display: block;
     margin: 0 auto;
     position: relative;
     z-index: 2; }
+    @media screen and (min-width: 30em) {
+      section.first-container div.second-container {
+        min-height: 75vh;
+        max-width: 290px; } }
     @media screen and (min-width: 48em) {
       section.first-container div.second-container {
+        min-height: 85vh;
         max-width: 350px; } }
     section.first-container div.second-container img.copy-home {
       width: 100%;
       display: block;
       margin: 0 auto;
       padding: 0 20px;
-      margin-top: 120px;
+      margin-top: 32%;
       -moz-transition: all 0.3s;
       -o-transition: all 0.3s;
       -webkit-transition: all 0.3s;
@@ -962,17 +967,18 @@ section.first-container {
       @media screen and (min-width: 30em) {
         section.first-container div.second-container img.copy-home {
           width: 100%;
-          margin-top: 160px; } }
+          margin-top: 40%; } }
       @media screen and (min-width: 48em) {
         section.first-container div.second-container img.copy-home {
           width: 90%;
-          margin-top: 140px; } }
+          margin-top: 37%; } }
   section.first-container img.hasbro-content {
     width: 390px;
     position: absolute;
     margin-left: -146px;
     left: 50%;
     z-index: 1;
+    bottom: 0;
     -moz-transition: all 0.2s;
     -o-transition: all 0.2s;
     -webkit-transition: all 0.2s;
@@ -988,7 +994,8 @@ section.first-container {
         position: absolute;
         margin-left: -186px;
         left: 50%;
-        z-index: 1; } }
+        z-index: 1;
+        bottom: -110px; } }
   section.first-container img.hasbro-plays {
     display: none; }
     @media screen and (min-width: 48em) {
