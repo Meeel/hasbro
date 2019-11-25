@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'TradeMarker';
+    src: url('TradeMarker-Light.woff2') format('woff2'),
+        url('TradeMarker-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TradeMarker';
+    src: url('TradeMarker-LightItalicAlt.woff2') format('woff2'),
+        url('TradeMarker-LightItalicAlt.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TradeMarker';
+    src: url('TradeMarker-LightAlt.woff2') format('woff2'),
+        url('TradeMarker-LightAlt.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TradeMarker';
+    src: url('TradeMarker-Fat.woff2') format('woff2'),
+        url('TradeMarker-Fat.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+

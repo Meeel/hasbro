@@ -1,0 +1,76 @@
+/* ==========================================================================
+                         HR-MODALS
+========================================================================== */
+div{
+	&.modals{
+		background-color:rgba(0, 0, 0, 0.88) !important;
+		div{
+			&.close-i{
+				img{
+					&.close-modal-i{
+						width: 40px;
+						height: auto;
+						display: block;
+						margin: 0 auto;
+						padding-top: 20px;
+						cursor:pointer;
+					}
+				}
+			}
+			&.modal-content{
+				@include flexCrosbrowsing();
+				justify-content:center;
+				align-items:center;
+				height: 80%;
+				div{
+					&.container-modal{
+						width: 100%;
+						max-width: 300px;
+						min-height: 400px;
+						display: block;
+						margin: 0 auto;
+						padding:10px;
+						border: 1px solid #f2c13a;
+						border-radius: 10px;
+						@include flexCrosbrowsing();
+						flex-direction:column;
+						align-items:center;
+						justify-content:center;
+						@include breakpoint(mobile){
+							max-width: 420px;
+						}
+						@include breakpoint(tablet){
+							width: 100%;
+							max-width: 700px;
+						}
+						h3{
+							&.h3Modal{
+								font-size: 22px;
+								color: white;
+								txt-align:center;
+							}
+						}
+						div{
+							&.txtModal{
+								display: block;
+								width: 100%;
+								height: auto;
+								margin:10px 0;
+								p{
+									&.pModal{
+										font-size: 16px;
+										color: white;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+/* ==========================================================================
+                         END-HR-MODALS
+========================================================================== */

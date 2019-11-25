@@ -1,0 +1,36 @@
+/* ==========================================================================
+                         HR-MODALS
+========================================================================== */
+header{
+	width: 100%;
+	height: 60px !important;
+	display: block;
+	background-color: gray;
+	@include flexCrosbrowsing();
+	align-items:center;
+	background-color: #3e3e3e;
+	div{
+		&#header{
+			@include flexCrosbrowsing();
+			align-items:center;
+			padding:5px;
+			span{
+				&.txt-menu{
+					color: white;
+					font-size: 15px;
+					font-weight: 700;
+				}
+			}
+			img{
+				&.menu-btn{
+					width: 30px;
+					height: auto;
+					display: block;
+				}
+			}
+		}
+	}
+}
+/* ==========================================================================
+                        END-HR-MODALS
+========================================================================== */

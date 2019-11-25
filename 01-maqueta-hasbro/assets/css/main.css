@@ -1,0 +1,1283 @@
+/* ==========================================================================
+AGENCY:DM   CLIENT:NAME
+========================================================================== */
+/* ==========================================================================
+TABLE OF CONTENTS
+-----------------------------------------------------------------------------
+01 CLEARFIX
+02 RESET
+03 COLORS
+04 FONTS
+05 MIXINS
+06 LOADER
+07 PUSHY MENU
+08 MODALS
+09 BUTTONS
+10 HEADER
+-----------------------------------------------------------------------------
+/* ==========================================================================
+01 CLEARFIX
+========================================================================== */
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+.clearfix {
+  display: inline-block; }
+
+/* start commented backslash hack \*/
+* html .clearfix {
+  height: 1%; }
+
+.clearfix {
+  display: block; }
+
+/* close commented backslash hack */
+/* ==========================================================================
+02 RESET
+========================================================================== */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+html {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+q, blockquote {
+  quotes: none; }
+
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none; }
+
+a img {
+  border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+*, *::after, *::before {
+  -ms-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility; }
+
+/* ==========================================================================
+03 COLORS
+========================================================================== */
+/* ==========================================================================
+SOCIAL - COLOR PALETTE
+========================================================================== */
+/* ==========================================================================
+CLIENT - COLOR PALETTE
+========================================================================== */
+/* ==========================================================================
+MEDIOS - COLOR PALETTE
+========================================================================== */
+/* ==========================================================================
+04 FONTS
+========================================================================== */
+/* ==========================================================================
+   FONTS
+   ========================================================================== */
+/*-----Lato-----*/
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/lato/Lato-Hairline.ttf") format("truetype");
+  font-weight: 100;
+  font-style: thin; }
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/lato/Lato-HairlineItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/lato/Lato-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: light; }
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/lato/Lato-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/lato/Lato-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/lato/Lato-Italic.ttf.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/lato/Lato-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: bold; }
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/lato/Lato-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/lato/Lato-Black.ttf") format("truetype");
+  font-weight: 800;
+  font-style: black; }
+
+/*-------Fin Lato-------*/
+/*-----Montserrat-----*/
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat/Montserrat-Thin.ttf") format("truetype");
+  font-weight: 300;
+  font-style: light; }
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat/Montserrat-ThinItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat/Montserrat-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat/Montserrat-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat/Montserrat-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: bold; }
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat/Montserrat-BlackItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic; }
+
+/*-------Fin Lato-------*/
+/*-----Open Sans-----*/
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/open-sans/OpenSans-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: lighter; }
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/open-sans/OpenSans-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/open-sans/OpenSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/open-sans/OpenSans-Italic.ttf.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/open-sans/OpenSans-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: medium; }
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/open-sans/OpenSans-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/open-sans/OpenSans-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: bold; }
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/open-sans/OpenSans-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/open-sans/OpenSans-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: black; }
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/open-sans/OpenSans-ExtraBoldItalic.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic; }
+
+/*-------Fin Open Sans-------*/
+/*-------Roboto------*/
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto/Roboto-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: thin; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto/Roboto-Light.ttf") format("truetype");
+  font-weight: 200;
+  font-style: lighter; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto/Roboto-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto/Roboto-Medium.ttf");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto/Roboto-Bold.ttf");
+  font-weight: 700;
+  font-style: bold; }
+
+/*------Fin Roboto------*/
+/*------Roboto Condensed------*/
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url("../fonts/roboto/Roboto-Black.ttf");
+  font-weight: 800;
+  font-style: bolder; }
+
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url("../fonts/roboto-condensed/RobotoCondensed-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: thin; }
+
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url("../fonts/roboto-condensed/RobotoCondensed-Light.ttf") format("truetype");
+  font-weight: 200;
+  font-style: lighter; }
+
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url("../fonts/roboto-condensed/RobotoCondensed-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url("../fonts/roboto-condensed/RobotoCondensed-Medium.ttf");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url("../fonts/roboto-condensed/RobotoCondensed-Bold.ttf");
+  font-weight: 700;
+  font-style: bold; }
+
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url("../fonts/roboto-condensed/RobotoCondensed-Black.ttf");
+  font-weight: 800;
+  font-style: bolder; }
+
+/* ------Fin Roboto condensed------*/
+/*------Noto Serif------*/
+@font-face {
+  font-family: "Noto Serif";
+  src: url("../fonts/noto-serif/NotoSerif-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Noto Serif";
+  src: url("../fonts/noto-serif/NotoSerif-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Noto Serif";
+  src: url("../fonts/noto-serif/NotoSerif-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: bold; }
+
+@font-face {
+  font-family: "Noto Serif";
+  src: url("../fonts/noto-serif/NotoSerif-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic; }
+
+/*------Fin Noto Serif------*/
+/*------Brandon*------*/
+@font-face {
+  font-family: "Brandon";
+  src: url("../fonts/Brandon/BrandonText-Regular.otf");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Brandon";
+  src: url("../fonts/Brandon/BrandonText-RegularItalic.otf");
+  font-weight: 400;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Brandon";
+  src: url("../fonts/Brandon/BrandonText-Bold.otf");
+  font-weight: 600;
+  font-style: bold; }
+
+@font-face {
+  font-family: "Brandon";
+  src: url("../fonts/Brandon/BrandonText-BoldItalic.otf");
+  font-weight: 600;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Brandon";
+  src: url("../fonts/Brandon/BrandonText-Black.otf");
+  font-weight: 900;
+  font-style: black; }
+
+@font-face {
+  font-family: "Brandon";
+  src: url("../fonts/Brandon/BrandonText-BlackItalic.otf");
+  font-weight: 900;
+  font-style: italic; }
+
+/*-------Fin Brandon-------*/
+/*-------Rozha One-------*/
+@font-face {
+  font-family: "Rozha";
+  src: url("../fonts/rozha_one/RozhaOne-Regular.ttf");
+  font-weight: 400;
+  font-style: normal; }
+
+/*-------Fin Rozha One-------*/
+/*-------Rubik-------*/
+@font-face {
+  font-family: "Rubik";
+  src: url("../fonts/rubik/Rubik-Light.ttf") format("truetype");
+  font-weight: 200;
+  font-style: lighter; }
+
+@font-face {
+  font-family: "Rubik";
+  src: url("../fonts/rubik/Rubik-LightItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Rubik";
+  src: url("../fonts/rubik/Rubik-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Rubik";
+  src: url("../fonts/rubik/Rubik-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Rubik";
+  src: url("../fonts/rubik/Rubik-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Rubik";
+  src: url("../fonts/rubik/Rubik-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: bold; }
+
+@font-face {
+  font-family: "Rubik";
+  src: url("../fonts/rubik/Rubik-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: black; }
+
+/*-------Fin Rubik-------*/
+/*-------Playfair Display-------*/
+@font-face {
+  font-family: "Playfair";
+  src: url("../fonts/playfair-display/PlayfairDisplay-Regular.otf") format("opentypee");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Playfair";
+  src: url("../fonts/playfair-display/PlayfairDisplay-Italic.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Playfair";
+  src: url("../fonts/playfair-display/PlayfairDisplay-Bold.otf") format("opentype");
+  font-weight: 600;
+  font-style: bold; }
+
+@font-face {
+  font-family: "Playfair";
+  src: url("../fonts/playfair-display/PlayfairDisplay-BoldItalic.otf") format("opentype");
+  font-weight: 600;
+  font-style: italic; }
+
+/*-------Fin Playfair Display-------*/
+/* ==========================================================================
+   FIN FONTS
+   ========================================================================== */
+/* ==========================================================================
+05 MIXINS
+========================================================================== */
+/* ==========================================================================
+BREAKPOINT
+========================================================================== */
+/**/
+/* ==========================================================================
+GRID
+========================================================================== */
+/*
+*{
+	-webkit-tap-highlight-color: rgba(0,0,0,0);	
+	-webkit-touch-callout: none; 
+	-webkit-user-select: none; 
+	-khtml-user-select: none; 
+	-moz-user-select: none; 
+            user-select: none; 
+}
+*/
+body, html {
+  font-family: "Lato", Helvetica, Arial, "sans-serif";
+  font-weight: 400;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+*:focus {
+  outline: none; }
+
+a:visited {
+  outline: none;
+  color: #316d82; }
+
+label {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+a, span, input, figcaption, p, label, h1, h2, h3, h4 {
+  font-family: "Lato", Helvetica, Arial, "sans-serif";
+  font-weight: 400; }
+
+/* ==========================================================================
+06 LOADER
+========================================================================== */
+/* ==========================================================================
+                            HR-LOADER
+========================================================================== */
+body {
+  overflow: hidden !important; }
+
+div#preloader {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: 999999;
+  background-color: #f3f3f3;
+  display: -webkit-box;
+  /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;
+  /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;
+  /* TWEENER - IE 10 */
+  display: -webkit-flex;
+  /* NEW - Chrome */
+  display: flex;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; }
+  div#preloader img {
+    display: block;
+    width: 300px;
+    height: auto;
+    margin: 0 auto; }
+
+.lds-ripple {
+  display: inline-block;
+  position: relative;
+  width: 64px;
+  height: 64px; }
+
+.lds-ripple div {
+  position: absolute;
+  border: 4px solid #ff7676;
+  opacity: 1;
+  border-radius: 50%;
+  animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite; }
+
+.lds-ripple div:nth-child(2) {
+  animation-delay: -0.5s; }
+
+@keyframes lds-ripple {
+  0% {
+    top: 28px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    opacity: 1; }
+  100% {
+    top: -1px;
+    left: -1px;
+    width: 58px;
+    height: 58px;
+    opacity: 0; } }
+
+/* ==========================================================================
+                            FIN-HR-LOADER
+========================================================================== */
+/* ==========================================================================
+07 PUSHY MENU
+========================================================================== */
+/* ==========================================================================
+                         HR-PUSHY-MENU
+========================================================================== */
+/*! Pushy - v1.1.0 - 2017-1-30
+* Pushy is a responsive off-canvas navigation menu using CSS transforms & transitions.
+* https://github.com/christophery/pushy/
+* by Christopher Yee */
+/* Menu Appearance */
+.pushy {
+  position: fixed;
+  width: 300px;
+  height: 100%;
+  top: 0;
+  z-index: 9999;
+  background: black;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  /* enables momentum scrolling in iOS overflow elements */ }
+
+.pushy a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: 'Lato', sans-serif; }
+
+.pushy.pushy-left {
+  left: 0; }
+
+.pushy.pushy-right {
+  right: 0; }
+
+.pushy-content {
+  visibility: hidden; }
+
+/* Menu Movement */
+.pushy-left {
+  -webkit-transform: translate3d(-300px, 0, 0);
+  -ms-transform: translate3d(-300px, 0, 0);
+  transform: translate3d(-300px, 0, 0); }
+
+.pushy-open-left #container,
+.pushy-open-left .push {
+  -webkit-transform: translate3d(300px, 0, 0);
+  -ms-transform: translate3d(300px, 0, 0);
+  transform: translate3d(300px, 0, 0); }
+
+.pushy-right {
+  -webkit-transform: translate3d(300px, 0, 0);
+  -ms-transform: translate3d(300px, 0, 0);
+  transform: translate3d(300px, 0, 0); }
+
+.pushy-open-right #container,
+.pushy-open-right .push {
+  -webkit-transform: translate3d(-300px, 0, 0);
+  -ms-transform: translate3d(-300px, 0, 0);
+  transform: translate3d(-300px, 0, 0); }
+
+.pushy-open-left .pushy,
+.pushy-open-right .pushy {
+  -webkit-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); }
+
+.pushy-open-left .pushy-content,
+.pushy-open-right .pushy-content {
+  background: black;
+  visibility: visible; }
+
+/* Menu Transitions */
+#container,
+.pushy,
+.push {
+  transition: transform 0.2s cubic-bezier(0.16, 0.68, 0.43, 0.99); }
+
+.pushy-content {
+  transition: visibility 0.2s cubic-bezier(0.16, 0.68, 0.43, 0.99); }
+
+/* Site Overlay */
+.site-overlay {
+  display: none; }
+
+.pushy-open-left .site-overlay,
+.pushy-open-right .site-overlay {
+  display: block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 9998;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-animation: fade 500ms;
+  animation: fade 500ms; }
+
+@keyframes fade {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@-webkit-keyframes fade {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+/* Submenu Appearance */
+.pushy-submenu {
+  /* Submenu Buttons */
+  /* Submenu Icon */ }
+
+.pushy-submenu ul {
+  /*padding-left: 15px;*/
+  transition: max-height 0.2s ease-in-out, visibility 0.2s ease-in-out; }
+
+.pushy-submenu ul .pushy-link {
+  transition: opacity 0.2s ease-in-out; }
+
+.pushy-submenu ul li.border-submenu {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
+
+.pushy-submenu button {
+  width: 100%;
+  padding: 18px 17px 10px;
+  text-align: left;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  border: 0;
+  border-radius: inherit;
+  outline: none;
+  font-family: "Lato", Helvetica, Arial, "sans-serif";
+  font-weight: 400; }
+
+.pushy-submenu > a,
+.pushy-submenu > button {
+  position: relative; }
+
+.pushy-submenu > a::after,
+.pushy-submenu > button::after {
+  content: '';
+  display: block;
+  height: 11px;
+  width: 8px;
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  background: url("../images/arrow.svg") no-repeat;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  transition: transform 0.2s; }
+
+/* Submenu Movement */
+.pushy-submenu-closed ul {
+  max-height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
+.pushy-submenu-closed .pushy-link {
+  opacity: 0; }
+
+.pushy-submenu-open {
+  /* Submenu Icon */ }
+
+.pushy-submenu-open ul {
+  max-height: 1000px;
+  background: black;
+  visibility: visible; }
+
+.pushy-submenu-open .pushy-link {
+  opacity: 1; }
+
+.pushy-submenu-open a::after,
+.pushy-submenu-open button::after {
+  -webkit-transform: translateY(-50%) rotate(90deg);
+  -ms-transform: translateY(-50%) rotate(90deg);
+  transform: translateY(-50%) rotate(90deg); }
+
+.blue-menu {
+  background: #000 !important;
+  background-repeat-y: repeat;
+  font-weight: bolder;
+  color: #ead010;
+  border-bottom: solid 1px #fdd700 !important; }
+
+.close-menu {
+  height: 40px;
+  width: 100%;
+  background: black;
+  position: relative; }
+
+.close-menu img {
+  position: absolute;
+  right: 7px;
+  font-size: 22px;
+  top: 7px;
+  width: 28px; }
+
+.not-arrow::after {
+  background: none !important; }
+
+/* ==========================================================================
+                         END-HR-PUSHY-MENU
+========================================================================== */
+/* ==========================================================================
+08 MODALS
+========================================================================== */
+/* ==========================================================================
+                         HR-MODALS
+========================================================================== */
+div.modals {
+  background-color: rgba(0, 0, 0, 0.88) !important; }
+  div.modals div.close-i img.close-modal-i {
+    width: 40px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+    cursor: pointer; }
+  div.modals div.modal-content {
+    display: -webkit-box;
+    /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;
+    /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;
+    /* TWEENER - IE 10 */
+    display: -webkit-flex;
+    /* NEW - Chrome */
+    display: flex;
+    /* NEW, Spec - Opera 12.1, Firefox 20+ */
+    justify-content: center;
+    align-items: center;
+    height: 80%; }
+    div.modals div.modal-content div.container-modal {
+      width: 100%;
+      max-width: 300px;
+      min-height: 400px;
+      display: block;
+      margin: 0 auto;
+      padding: 10px;
+      border: 1px solid #f2c13a;
+      border-radius: 10px;
+      display: -webkit-box;
+      /* OLD - iOS 6-, Safari 3.1-6 */
+      display: -moz-box;
+      /* OLD - Firefox 19- (buggy but mostly works) */
+      display: -ms-flexbox;
+      /* TWEENER - IE 10 */
+      display: -webkit-flex;
+      /* NEW - Chrome */
+      display: flex;
+      /* NEW, Spec - Opera 12.1, Firefox 20+ */
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+      @media screen and (min-width: 30em) {
+        div.modals div.modal-content div.container-modal {
+          max-width: 420px; } }
+      @media screen and (min-width: 48em) {
+        div.modals div.modal-content div.container-modal {
+          width: 100%;
+          max-width: 700px; } }
+      div.modals div.modal-content div.container-modal h3.h3Modal {
+        font-size: 22px;
+        color: white;
+        txt-align: center; }
+      div.modals div.modal-content div.container-modal div.txtModal {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: 10px 0; }
+        div.modals div.modal-content div.container-modal div.txtModal p.pModal {
+          font-size: 16px;
+          color: white; }
+
+/* ==========================================================================
+                         END-HR-MODALS
+========================================================================== */
+/* ==========================================================================
+09 BUTTONS
+========================================================================== */
+/* ==========================================================================
+                        HR-BUTTONS
+========================================================================== */
+/*--BTN-UP---*/
+button.scrollup {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
+  background-color: #004ece;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  display: -webkit-box;
+  /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;
+  /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;
+  /* TWEENER - IE 10 */
+  display: -webkit-flex;
+  /* NEW - Chrome */
+  display: flex;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  align-items: center;
+  justify-content: center;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-transform: scale(0.9);
+  /* WebKit */
+  -moz-transform: scale(0.9);
+  /* Mozilla */
+  -o-transform: scale(0.9);
+  /* Opera */
+  -ms-transform: scale(0.9);
+  /* Internet Explorer */
+  transform: scale(0.9);
+  /* CSS3 */
+  display: none; }
+  button.scrollup > img {
+    width: 8px;
+    position: absolute; }
+  @media screen and (min-width: 64em) {
+    button.scrollup:hover {
+      -webkit-transform: scale(1.2);
+      /* WebKit */
+      -moz-transform: scale(1.2);
+      /* Mozilla */
+      -o-transform: scale(1.2);
+      /* Opera */
+      -ms-transform: scale(1.2);
+      /* Internet Explorer */
+      transform: scale(1.2);
+      /* CSS3 */ } }
+
+button.btn-down {
+  display: block;
+  margin: 0 auto;
+  border: none;
+  background-color: blue;
+  width: 65px;
+  height: 65px;
+  cursor: pointer;
+  border-radius: 60px;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-transform: scale(1);
+  /* WebKit */
+  -moz-transform: scale(1);
+  /* Mozilla */
+  -o-transform: scale(1);
+  /* Opera */
+  -ms-transform: scale(1);
+  /* Internet Explorer */
+  transform: scale(1);
+  /* CSS3 */ }
+  button.btn-down > img.arrow-down {
+    width: 40%;
+    height: 40%;
+    object-fit: cover; }
+  @media screen and (min-width: 64em) {
+    button.btn-down:hover {
+      -webkit-transform: scale(1.2);
+      /* WebKit */
+      -moz-transform: scale(1.2);
+      /* Mozilla */
+      -o-transform: scale(1.2);
+      /* Opera */
+      -ms-transform: scale(1.2);
+      /* Internet Explorer */
+      transform: scale(1.2);
+      /* CSS3 */ } }
+
+/*--BTNES GENERAL---*/
+a.link {
+  text-decoration: none;
+  color: #316d82;
+  cursor: pointer;
+  width: 100%;
+  max-width: 280px;
+  height: auto; }
+  a.link button.btn {
+    max-width: 280px;
+    width: 100%;
+    height: 60px;
+    border-radius: 60px;
+    border: none;
+    background-color: #316d82;
+    color: white;
+    cursor: pointer;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    font-family: "Lato", Helvetica, Arial, "sans-serif";
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: white; }
+    @media screen and (min-width: 64em) {
+      a.link button.btn:hover {
+        background-color: #142c35; } }
+
+/* ==========================================================================
+                        END-HR-BUTTONS
+========================================================================== */
+/* ==========================================================================
+10 HEADER
+========================================================================== */
+/* ==========================================================================
+                         HR-MODALS
+========================================================================== */
+header {
+  width: 100%;
+  height: 60px !important;
+  display: block;
+  background-color: gray;
+  display: -webkit-box;
+  /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;
+  /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;
+  /* TWEENER - IE 10 */
+  display: -webkit-flex;
+  /* NEW - Chrome */
+  display: flex;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  align-items: center;
+  background-color: #3e3e3e; }
+  header div#header {
+    display: -webkit-box;
+    /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;
+    /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;
+    /* TWEENER - IE 10 */
+    display: -webkit-flex;
+    /* NEW - Chrome */
+    display: flex;
+    /* NEW, Spec - Opera 12.1, Firefox 20+ */
+    align-items: center;
+    padding: 5px; }
+    header div#header span.txt-menu {
+      color: white;
+      font-size: 15px;
+      font-weight: 700; }
+    header div#header img.menu-btn {
+      width: 30px;
+      height: auto;
+      display: block; }
+
+/* ==========================================================================
+                        END-HR-MODALS
+========================================================================== */
+/* ==========================================================================
+11 MAIN
+========================================================================== */
+/* ==========================================================================
+                         HR-MAIN
+========================================================================== */
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  background-color: gray; }
+
+section.first-container {
+  width: 100%;
+  height: 90vh;
+  display: -webkit-box;
+  /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;
+  /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;
+  /* TWEENER - IE 10 */
+  display: -webkit-flex;
+  /* NEW - Chrome */
+  display: flex;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  justify-content: center;
+  align-items: center; }
+
+/* ==========================================================================
+                         END-HR-MAIN
+========================================================================== */
+/* ==========================================================================
+12 FORM
+========================================================================== */
+/* ==========================================================================
+                         HR-MAIN
+========================================================================== */
+section.form-container {
+  width: 100%;
+  height: 90vh;
+  display: -webkit-box;
+  /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;
+  /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;
+  /* TWEENER - IE 10 */
+  display: -webkit-flex;
+  /* NEW - Chrome */
+  display: flex;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  justify-content: center;
+  align-items: center; }
+  section.form-container form {
+    width: 90%;
+    height: auto;
+    background-color: #ededed;
+    border-radius: 10px;
+    padding: 10px;
+    display: -webkit-box;
+    /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;
+    /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;
+    /* TWEENER - IE 10 */
+    display: -webkit-flex;
+    /* NEW - Chrome */
+    display: flex;
+    /* NEW, Spec - Opera 12.1, Firefox 20+ */
+    justify-content: center;
+    flex-direction: column; }
+    @media screen and (min-width: 48em) {
+      section.form-container form {
+        max-width: 400px; } }
+    section.form-container form input {
+      width: 100%;
+      margin: 5px 0;
+      height: 35px;
+      text-indent: 10px;
+      font-family: "Lato", Helvetica, Arial, "sans-serif";
+      text-transform: uppercase;
+      font-size: 18px;
+      text-align: center;
+      border-radius: 60px;
+      border: none;
+      font-weight: 600;
+      background-color: #316d82;
+      color: white; }
+      section.form-container form input::placeholder {
+        width: 100%;
+        color: white;
+        font-weight: 600; }
+
+/*------CUSTOM CHECKBOX------*/
+label.container-checkbox {
+  position: relative;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+/* Hide the browser's default checkbox */
+.container-checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0; }
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: -4px;
+  left: -30px;
+  height: 25px;
+  width: 25px;
+  background-color: #bfbfbf; }
+
+/* On mouse-over, add a grey background color */
+.container-checkbox :hover input ~ .checkmark {
+  background-color: #ccc; }
+
+/* When the checkbox is checked, add a blue background */
+.container-checkbox input:checked ~ .checkmark {
+  background-color: #316d82; }
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none; }
+
+/* Show the checkmark when checked */
+.container-checkbox input:checked ~ .checkmark:after {
+  display: block; }
+
+/* Style the checkmark/indicator */
+.container-checkbox .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg); }
+
+/*------CUSTOM SELECT-------*/
+/*the container must be positioned relative:*/
+.custom-select {
+  position: relative;
+  font-family: "Lato", Helvetica, Arial, "sans-serif";
+  background-color: #316d82;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 60px; }
+
+.custom-select select {
+  display: none;
+  /*hide original SELECT element:*/ }
+
+.select-selected {
+  background-color: #316d82;
+  border-radius: 60px; }
+
+/*style the arrow inside the select element:*/
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent; }
+
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px; }
+
+/*style the items (options), including the selected item:*/
+.select-items div, .select-selected {
+  color: #ffffff;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  user-select: none; }
+
+/*style items (options):*/
+.select-items {
+  position: absolute;
+  background-color: #316d82;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  height: 211px;
+  overflow: scroll; }
+
+/*hide the items when the select box is closed:*/
+.select-hide {
+  display: none; }
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1); }
+
+/* ==========================================================================
+                         END-HR-MAIN
+========================================================================== */
